@@ -84,8 +84,8 @@ export const store = createStore<State>({
 			// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 			const [fetchedDownloads, fetchedStars, fetchedContributors] = await Promise.all([
 				fetch('https://api.npmjs.org/downloads/range/2013-08-21:2100-08-21/lunarjs-discord').then(toJSON, noop),
-				fetch('https://api.github.com/repos/TheDevYellowy/lunar.js').then(toJSON, noop),
-				fetch('https://api.github.com/repos/TheDevYellowy/lunar.js/stats/contributors').then(toJSON, noop),
+				fetch('https://api.github.com/repos/lunar-js/lunar.js').then(toJSON, noop),
+				fetch('https://api.github.com/repos/lunar-js/lunar.js/stats/contributors').then(toJSON, noop),
 			]);
 
 			if (fetchedDownloads?.downloads) {
@@ -147,7 +147,7 @@ export const store = createStore<State>({
 			let tags: any[];
 			try {
 				// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-				[tags, documentation] = await inputSource.fetchDocs(inputTag);
+				[tags, documentation] = await inputSource.fetchDocs();
 			} catch (error) {
 				commit({
 					type: 'setDocs',

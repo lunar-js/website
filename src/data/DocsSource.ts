@@ -120,9 +120,9 @@ export default class DocsSource {
 			});
 	}
 
-	public async fetchDocs(tag?: string | null) {
+	public async fetchDocs() {
 		const tags = await this.fetchTags();
-		const res = await fetch(`https://docs.discordjs.dev/docs/${this.id}/${tag ?? this.defaultTag}.json`);
+		const res = await fetch(`https://github.com/lunar-js/docs/blob/main/main.json`);
 		// eslint-disable-next-line @typescript-eslint/no-unsafe-return
 		return [tags, await json(res)];
 	}
