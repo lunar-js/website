@@ -44,7 +44,7 @@ setDefaultHandler((args) => {
 });
 
 registerRoute(
-	/^https:\/\/raw\.githubusercontent\.com\/TheDevYellowy\/.*\.json/i,
+	/^https:\/\/raw\.githubusercontent\.com\/lunar-js\/.*\.json/i,
 	new NetworkFirst({
 		cacheName: 'djs-docs-v3',
 		plugins: [

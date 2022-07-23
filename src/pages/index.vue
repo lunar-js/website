@@ -13,7 +13,7 @@
 			<h2>About</h2>
 			<h3>Imagine a bot</h3>
 			<p>
-				discord.js is a powerful
+				lunarjs is a powerful
 				<a href="https://nodejs.org" target="_blank" rel="noopener"
 					>Node.js <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
 				/></a>
@@ -22,10 +22,13 @@
 					>Discord API <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
 				/></a>
 				very easily. It combines both
-				<a href="https://https://github.com/discordjs/discord.js/tree/main/packages/discord.js" target="_blank" rel="noopener"
+				<a
+					href="https://https://github.com/discordjs/discord.js/tree/main/packages/discord.js"
+					target="_blank"
+					rel="noopener"
 					>Discord.js <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
-				/></a> 
-				and 
+				/></a>
+				and
 				<a href="https://github.com/Merubokkusu/Discord-S.C.U.M" target="_blank" rel="noopener"
 					>Discord-S.C.U.M <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
 				/></a>

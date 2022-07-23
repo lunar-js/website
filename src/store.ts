@@ -31,9 +31,7 @@ export const key: InjectionKey<Store<State>> = Symbol('docs');
 
 export const store = createStore<State>({
 	state: {
-		sources: [
-			{ source: MainSource, name: MainSource.name, id: MainSource.id },
-		],
+		sources: [{ source: MainSource, name: MainSource.name, id: MainSource.id }],
 		source: MainSource,
 		tag: MainSource.defaultTag,
 		docs: null,

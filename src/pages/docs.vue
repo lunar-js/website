@@ -40,8 +40,6 @@ const { Ctrl_K, MetaLeft_K } = useMagicKeys({
 const sources = reactive({
 	[MainSource.id]: MainSource,
 	main: MainSource,
-	// [CommandoSource.id]: CommandoSource,
-	// [RPCSource.id]: RPCSource,
 });
 
 const showBackToTop = ref(false);
