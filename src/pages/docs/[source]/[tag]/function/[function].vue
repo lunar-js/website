@@ -82,7 +82,7 @@ const returnDescription = computed(() =>
 );
 
 useHead({
-	title: computed(() => `discord.js | ${fn?.name ?? ''}`),
+	title: computed(() => `lunarjs | ${fn?.name ?? ''}`),
 });
 
 onMounted(() => {

@@ -122,7 +122,7 @@ export default class DocsSource {
 
 	public async fetchDocs() {
 		const tags = await this.fetchTags();
-		const res = await fetch(`https://github.com/lunar-js/docs/blob/main/main.json`);
+		const res = await fetch(`https://raw.githubusercontent.com/lunar-js/docs/main/main.json`);
 		// eslint-disable-next-line @typescript-eslint/no-unsafe-return
 		return [tags, await json(res)];
 	}

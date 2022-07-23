@@ -100,7 +100,7 @@ const returnDescription = computed(() =>
 );
 
 useHead({
-	title: computed(() => `discord.js | ${typedef?.name ?? ''}`),
+	title: computed(() => `lunarjs | ${typedef?.name ?? ''}`),
 });
 
 onMounted(() => {
