@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://lunarjs.com"><img src="https://discord.js.org/static/logo.svg" width="546" alt="discord.js" /></a>
+    <a href="https://www.lunarjs.com"><img src="https://discord.js.org/static/logo.svg" width="546" alt="discord.js" /></a>
   </p>
   <br />
   <p>

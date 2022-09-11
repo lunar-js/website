@@ -54,7 +54,7 @@ export default class DocsSource {
 		if (this.tags) return Promise.resolve(this.tags);
 		return Promise.all([
 			fetch(`https://api.github.com/repos/${this.repo}/branches`).then(json),
-			fetch(`https://api.github.com/repos/${this.repo}/git/refs/tags`).then(json),
+			fetch(`https://api.github.com/repos/${this.repo}/tags`).then(json),
 		])
 			.catch((err) => {
 				if (localStorage[`source-${this.id}`]) {
